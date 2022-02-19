@@ -1,0 +1,9 @@
+git config --global user.name "tutuzh"
+
+git config --global --unset git.proxy
+
+git clone git@github.com:tutuzh/test.git
+ssh -T git@github.com:tutuzh/test.git
+git config --global  user.name "tutuzh"
+
+ssh-keygen -t rsa -C "tutuzh888@gmail.com"
